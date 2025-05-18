@@ -1,4 +1,3 @@
-# Clone the repository
 # Check if the Projects directory exists
 if [ ! -d "$HOME/Projects" ]; then
   mkdir -p "$HOME/Projects"
@@ -14,7 +13,7 @@ if [ -z "$(ls -A ~/Projects/dotfiles)" ]; then
   echo "The dotfiles directory is empty. Cloning the repository..."
   git clone https://github.com/fialhorenato/dotfiles.git ~/Projects/dotfiles
 else
-  echo "The dotfiles directory is not empty. Please remove its contents before proceeding."
+  echo "The dotfiles directory is not empty. Will check if the repository is correct and update it if necessary."
   cd ~/Projects/dotfiles
 
   # Verify if the current folder is a git repository and if the remote URL is correct
