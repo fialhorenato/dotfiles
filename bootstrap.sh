@@ -41,4 +41,4 @@ cp .vimrc ~/.vimrc
 cp .gitconfig ~/.gitconfig
 
 # Source the new zsh config
-source ~/.zshrc
+zsh
