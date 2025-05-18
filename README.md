@@ -13,7 +13,6 @@ This project provides a set of configuration files and a setup script to quickly
 ## Prerequisites
 
 - macOS (tested on recent versions)
-- Internet connection
 
 ## Installation Steps
 
