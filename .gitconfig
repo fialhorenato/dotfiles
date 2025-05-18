@@ -1,0 +1,17 @@
+# Generate a gitconfig file with my name Renato Fialho and the github hidden email for my account
+[user]
+    name = Renato Fialho
+    email = 482565+fialhorenato@users.noreply.github.com
+
+# Generate the gitconfig with the best perfomance settings
+[core]
+    editor = vim
+    autocrlf = input
+    excludesfile = ~/.gitignore_global
+    precomposeunicode = true
+    filemode = false
+    symlinks = false
+    ignorecase = true
+    prefetch = true
+    packedgitwindows = true
+    packedgitlimit = 2g
