@@ -71,6 +71,13 @@ else
   brew install --cask iterm2
 fi
 
+# Install docker using brew cask
+if [ -d "/Applications/Docker.app" ] || brew list --cask docker &>/dev/null; then
+  echo "Docker is already installed."
+else
+  echo "Installing Docker..."
+  brew install --cask docker
+fi
 
 # Install zsh-autosuggestions
 ZSH_AUTOSUGGESTIONS_DIR="${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-autosuggestions"
