@@ -16,37 +16,22 @@ This project provides a set of configuration files and a setup script to quickly
 
 ## Installation Steps
 
-1. **Clone this repository**
+1. **Run the bootstrap script**
+
+   This script will clone the repository, run the setup, and copy your configuration files:
 
    ```sh
-   git clone https://github.com/yourusername/dotfiles.git ~/Projects/dotfiles
-   cd ~/Projects/dotfiles
+   curl -fsSL https://raw.githubusercontent.com/yourusername/dotfiles/main/bootstrap.sh | bash
    ```
 
-2. **Run the setup script**
-
-   This script will install Homebrew, Oh My Zsh, SDKMAN!, and several applications.
+   Or, if you have already cloned the repository, just run:
 
    ```sh
    chmod +x setup.sh
    ./setup.sh
-   ```
-
-3. **Copy the Zsh, Vim, and Git configuration files**
-
-   Replace your existing Zsh, Vim, and Git configuration files with the provided ones:
-
-   ```sh
    cp .zsrhc ~/.zshrc
    cp .vimrc ~/.vimrc
    cp .gitconfig ~/.gitconfig
-   ```
-
-4. **Restart your terminal**
-
-   Close and reopen your terminal, or run:
-
-   ```sh
    source ~/.zshrc
    ```
 
