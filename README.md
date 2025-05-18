@@ -32,12 +32,13 @@ This project provides a set of configuration files and a setup script to quickly
    ./setup.sh
    ```
 
-3. **Copy the Zsh configuration file**
+3. **Copy the Zsh and Vim configuration files**
 
-   Replace your existing Zsh configuration with the provided one:
+   Replace your existing Zsh and Vim configuration files with the provided ones:
 
    ```sh
    cp .zsrhc ~/.zshrc
+   cp .vimrc ~/.vimrc
    ```
 
 4. **Restart your terminal**
