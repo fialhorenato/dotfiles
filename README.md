@@ -21,7 +21,7 @@ This project provides a set of configuration files and a setup script to quickly
    This script will clone the repository, run the setup, and copy your configuration files:
 
    ```sh
-   curl -fsSL https://raw.githubusercontent.com/fialhorenato/dotfiles/main/bootstrap.sh | bash
+   curl -H 'Cache-Control: no-cache' -fsSL https://raw.githubusercontent.com/fialhorenato/dotfiles/main/bootstrap.sh | bash
    ```
 
    Or, if you have already cloned the repository, just run:
